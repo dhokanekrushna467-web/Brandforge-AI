@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>BrandForge AI</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="wrap">
+  <h1>BrandForge AI</h1>
+  <p class="sub">Turn a rough idea into a launch-ready brand system — staged, not one-shot.</p>
+
+  <div class="stages" id="stageChips"></div>
+
+  <div id="intake">
+    <textarea id="ideaInput" placeholder="Describe your rough idea in a sentence or two... e.g. 'An app that helps college students find hackathon teammates.'"></textarea>
+    <div class="row"><button id="runBtn">Run brand workflow</button></div>
+  </div>
+
+  <div id="log"></div>
+  <div class="status" id="status"></div>
+
+  <div id="final" style="display:none">
+    <div class="row">
+      <button id="downloadBtn">Download brand kit (.md)</button>
+      <button class="secondary" id="restartBtn">Start over</button>
+    </div>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
